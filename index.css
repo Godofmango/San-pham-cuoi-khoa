@@ -1,0 +1,38 @@
+body {
+  background-image: url("https://img.freepik.com/free-photo/bright-pop-landscape-design_23-2149213461.jpg?size=626&ext=jpg&ga=GA1.1.1518270500.1717200000&semt=ais_user");
+  background-size: cover;
+}
+footer {
+  background-color: white;
+}
+footer > hr {
+  margin: 0;
+  height: 3px;
+  background-color: black;
+}
+footer > .branch {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+.footer-inner {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+}
+.item > a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+}
